@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.628);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .box1 {
+  height: 750px;
+  width: 650px;
+  position: relative;
+  cursor: pointer;
+}
+main .box1 img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .box1 i {
+  font-size: 80px;
+  color: aliceblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 2;
+  transform: translate(-50%, -50%) scale(0);
+  transition: all ease 0.1s;
+}
+main .box2 {
+  height: 750px;
+  width: 650px;
+  background-color: #212328;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .box2 .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  height: 70px;
+  cursor: pointer;
+}
+main .box2 .nav .left {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+main .box2 .nav .left .pic {
+  height: 45px;
+  width: 45px;
+  background: linear-gradient(orange, red, rgb(232, 107, 127), yellow);
+  border-radius: 50%;
+  padding: 2px;
+}
+main .box2 .nav .left img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+main .box2 .nav .left h2 {
+  color: white;
+}
+main .box2 .nav .left p {
+  font-size: 20px;
+  color: royalblue;
+}
+main .box2 .nav .left p:hover {
+  color: rgba(232, 231, 244, 0.6549019608);
+}
+main .box2 .nav .left i {
+  font-size: 20px;
+  background-color: rgb(43, 183, 230);
+  padding: 3px 3px;
+  border-radius: 50%;
+}
+main .box2 .nav .right i {
+  font-size: 20px;
+  color: white;
+}
+main .box2 .mid {
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .box2 .mid .hur {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+main .box2 .mid .pic {
+  height: 35px;
+  width: 35px;
+  background: linear-gradient(orange, red, rgb(232, 107, 127), yellow);
+  border-radius: 50%;
+  padding: 2px;
+}
+main .box2 .mid .pic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+main .box2 .mid i {
+  font-size: 15px;
+  background-color: rgb(43, 183, 230);
+  padding: 3px 3px;
+  border-radius: 50%;
+}
+main .box2 .mid .greet p {
+  line-height: 2;
+}
+main .box2 .bottom {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+}
+main .box2 .bottom .up {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+main .box2 .bottom .up i {
+  color: white;
+  font-size: 35px;
+}
+main .box2 .bottom .up .love i {
+  margin-left: 3px;
+}
+main .box2 .bottom .up .save i {
+  color: black;
+}
+main .box2 .bottom .count {
+  color: white;
+  padding-left: 10px;
+}
+main .box2 .bottom .count h3 {
+  display: inline-block;
+  margin-right: 2px;
+}
+main .box2 .bottom .count p {
+  font-size: 20px;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
